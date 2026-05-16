@@ -4,7 +4,7 @@ public class Mian {
 	
 	    public static void main(String[] args) {
 
-	    	int num = 1000;
+	    	int num = 100;
 	    	
 	    	System.out.println("THeory of WRAPPER CLASS");
 	        System.out.println("------------------------");
@@ -15,10 +15,10 @@ public class Mian {
 	        System.out.println("char   >> Charector");
 	        System.out.println("-------000------------");
 	        
-	        // Primitive to Wrapper (Boxing)
+	        // Primitive to Wrapper
 	        Integer obj = Integer.valueOf(num);
 
-	        // Wrapper to Primitive (Unboxing)
+	        // Wrapper to Primitive 
 	        int value = obj.intValue();
 
 	        System.out.println("Primitive int: " + num);
