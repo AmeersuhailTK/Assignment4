@@ -1,6 +1,6 @@
 package inHeritence;
 
-class subClass extends parentClass {
+class subClass  {
 		
 		void bark() {
 	        System.out.println("Dog barks.");
