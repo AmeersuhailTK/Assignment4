@@ -1,28 +1,31 @@
 package typeCasting;
 
 public class implicit_explicit {
-	    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-	        // Implicit Casting (Widening)
-	        int a = 10;
-	        double b = a;   // int → double
-	        System.out.println("Implicit Casting (int to double): " + b);
+        // Implicit Casting 
+        int a = 10;
+        double b = a;   // int → double
+        System.out.println("implicit : "+b);
 
-	        // Explicit Casting (Narrowing)
-	        double x = 9.78;
-	        int y = (int) x;   // double → int
-	        System.out.println("Explicit Casting (double to int): " + y);
+        // Explicit Casting (Narrowing)
+        double x = a;
+        int y = (int) x;   // double → int
+        System.out.println("Explicit : " + y);
+        
+        
+     // int to char (explicit)
+        int n = 66;
+        char h = (char) n;
+        System.out.println("Int to char: " + h);
 
-	        // Char to int (implicit)
-	        char c = 'A';
-	        int y1 = c;
-	        System.out.println("Char to int: " + y1);
+        // Char to int (implicit)
+        char c = 'A';
+        int d = c;
+        System.out.println("Char to int: " + d);
 
-	        // int to char (explicit)
-	        int num = 66;
-	        char ch = (char) num;
-	        System.out.println("Int to char: " + ch);
-	    }
+        
+    }
 	}
 
 
