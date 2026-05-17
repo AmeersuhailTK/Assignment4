@@ -1,8 +1,8 @@
 package inHeritence;
-   public class Main {
+   public class Main extends parentClass{
         public static void main(String[] args) {
         	
-        parentClass d = new parentClass();
+        Main d = new Main();
         
        d.bark();
        d.dog();
